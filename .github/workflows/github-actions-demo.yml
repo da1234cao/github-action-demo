@@ -16,7 +16,6 @@ jobs:
           boost_version: '1.80.0'
           platform_version: 2022
           toolset: 'msvc'
-          arch: 'amd64'
       - name: install qt
         uses: jurplel/install-qt-action@v3
         with:
