@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
@@ -14,6 +14,14 @@ jobs:
         with:
               version: '5.15.2'
               target: 'desktop'
+      - name: install boost
+        uses: MarkusJx/install-boost@v2.4.1
+        id: install-boost
+         with:
+              boost_version: 1.73.0
+              platform_version: 20.04
+              toolset: gcc
+              arch: x86
       - name: build ios
         run: |
           mkdir build
