@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.11)
 project(github-action-test)
 
 # qt
-project(http-client)
+project(action-test)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
