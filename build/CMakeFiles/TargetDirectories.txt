@@ -1,4 +1,0 @@
-/home/dacao/work/self/github-action-demo/build/CMakeFiles/action-test.dir
-/home/dacao/work/self/github-action-demo/build/CMakeFiles/edit_cache.dir
-/home/dacao/work/self/github-action-demo/build/CMakeFiles/rebuild_cache.dir
-/home/dacao/work/self/github-action-demo/build/CMakeFiles/action-test_autogen.dir
